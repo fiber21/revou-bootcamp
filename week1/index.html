@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revou Day 2</title>
     <style>
         button {
             width: 100%;
+            background-color: aquamarine;
+            border: none;
+            border-radius: 5px;
         }
-        /* table, th, td {
-            border: 1px solid black;
-        } */
         table {
             background-color: blue;
+        }
+        .red {
+            color: aliceblue;
+            background-color: red;
+        }
+        .blue {
+            color: rgb(229, 255, 0);
+            background-color: rgb(159, 0, 173);
+        }
+        .orange {
+            background-color: orange;
+        }
+        .black {
+            color: white;
+            background-color: black;
+        }
+        .green {
+            color: white;
+            background-color: green;
         }
     </style>
 </head>
@@ -29,13 +45,13 @@
             </tr>
             <tr>
                 <td colspan="2">
-                 <button>AC</button> 
+                 <button class="red">AC</button> 
              </td>
              <td>
-                 <button>C</button> 
+                 <button class="blue">C</button> 
              </td>
              <td>
-                 <button>*</button>
+                 <button class="orange">*</button>
              </td>
          </tr>
          <tr>
@@ -49,7 +65,7 @@
                  <button>9</button> 
              </td>
              <td>
-                 <button>/</button> 
+                 <button class="orange">/</button> 
              </td>
          </tr>
          <tr>
@@ -63,7 +79,7 @@
                     <button>6</button> 
                 </td>
                 <td>
-                    <button>+</button> 
+                    <button class="orange">+</button> 
                 </td>
             </tr>
             <tr>
@@ -77,21 +93,21 @@
                     <button>3</button> 
                 </td>
                 <td>
-                    <button>-</button> 
+                    <button class="orange">-</button> 
                 </td>
             </tr>
             <tr>
              <td>
-                 <button>+-</button> 
+                 <button class="black">+-</button> 
                 </td>
                 <td>
                     <button>0</button> 
                 </td>
                 <td>
-                    <button>.</button> 
+                    <button class="black">.</button> 
                 </td>
                 <td>
-                    <button>=</button> 
+                    <button class="green">=</button> 
                 </td>
             </tr>
         </table>
