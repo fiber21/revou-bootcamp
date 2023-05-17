@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
         a[target] {
             background-color: aqua;
         }
         .wrapper {
+            width: 155px;
+            height: 240px;
+            padding: 5px;
+            background-color: aqua;
             display: grid;
-            grid-template-columns: 100px 100px 100px;
-            grid-gap: 10px;
+            grid-template-columns: 35px 35px 35px 35px;
+            grid-gap: 5px;
+            border: none;
+            border-radius: 10px;
+        }
+        button {
+            border: none;
+            border-radius: 10px;
+        }
+        input {
+            grid-column: 1/ span 4;
+            border: none;
+            border-radius: 10px;
+        }
+        .red {
+            grid-column: 1/ span 2;
+        }
+        .blue {
+            color: rgb(229, 255, 0);
+            background-color: rgb(159, 0, 173);
+        }
+        .orange {
+            background-color: orange;
+        }
+        .black {
+            color: white;
+            background-color: black;
+        }
+        .green {
+            color: white;
+            background-color: green;
         }
     </style>
 </head>
@@ -21,10 +51,29 @@
     <a href="" target="_blank">ghfv</a>
     <a href="" target="_top">jkugffg</a>
 
-    mencoba grid
+    <h1>mencoba grid</h1>
 
     <div class="wrapper">
-
-    </div>
+                <input type="text" name="display">
+                <button class="red">AC</button>
+                <button class="blue">C</button> 
+                <button class="orange">*</button>
+                <button>7</button> 
+                <button>8</button> 
+                <button>9</button> 
+                <button class="orange">/</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="orange">+</button>
+                <button>1</button>
+                <button>2</button> 
+                <button>3</button>
+                <button class="orange">-</button>
+                <button class="black">+-</button>
+                <button>0</button>
+                <button class="black">.</button>
+                <button class="green">=</button>
+       </div>
 </body>
 </html>
